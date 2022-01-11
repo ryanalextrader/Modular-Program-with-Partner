@@ -2,9 +2,9 @@
 #define SEGDISPLAY_H
 
 #include <mbed.h>
-extern BusOut seg1;
-extern BusOut seg2;
+extern BusOut Seg1;
+extern BusOut Seg2;
 void SegInit(void);
-int segConvert(char SegValue);
+int SegConvert(char SegValue);
 
 #endif
